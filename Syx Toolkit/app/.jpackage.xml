@@ -4,4 +4,5 @@
   <main-launcher>Syx Toolkit</main-launcher>
   <main-class>syx.gui.Main</main-class>
   <signed>false</signed>
-  <app-store>false</app-store></jpackage-state>
+  <app-store>false</app-store>
+  <add-launcher name="syx" shortcut="true" menu="true" service="false"></add-launcher></jpackage-state>
