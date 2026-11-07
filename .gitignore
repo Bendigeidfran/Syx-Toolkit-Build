@@ -1,0 +1,6 @@
+# Written by scripts\package.ps1. A player's own manifests, reports and converted audio must never be published.
+Syx Toolkit/Diff Reports/
+Syx Toolkit/Converted Audio Files/
+Syx Toolkit/Manifests/*
+!Syx Toolkit/Manifests/SongsOfSyx-0.70.33-f07a31d3b3b086a2.manifest.json.gz
+!Syx Toolkit/Manifests/SongsOfSyx-0.71.44-fe0137c05408e5ee.manifest.json.gz

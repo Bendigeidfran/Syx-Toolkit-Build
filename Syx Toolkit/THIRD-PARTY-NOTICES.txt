@@ -1,8 +1,9 @@
-Syx Toolkit includes these third-party libraries, all under the Apache License 2.0, which follows.
+Syx Toolkit includes these third-party libraries.
 
 FlatLaf 3.7.2, Copyright FormDev Software GmbH. https://www.formdev.com/flatlaf/
 FlatLaf Roboto font 2.137, containing the Roboto font by Google. https://github.com/googlefonts/roboto
 FlatLaf Roboto Mono font 3.000, containing the Roboto Mono font by Google. https://github.com/googlefonts/RobotoMono
+These three are under the Apache License 2.0, which follows.
 
                                  Apache License
                            Version 2.0, January 2004
@@ -205,3 +206,13 @@ FlatLaf Roboto Mono font 3.000, containing the Roboto Mono font by Google. https
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+
+JLayer 1.0.1, Copyright JavaZOOM. Used to read MP3 files. https://www.javazoom.net/javalayer/javalayer.html
+GNU Lesser General Public License 2.1. https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+The jar is shipped beside the app, unmodified, so it can be replaced.
+
+javasound-vorbis 2.1.0, Copyright Karstian Lee and the Xiph.Org Foundation. Used to write Ogg Vorbis files. https://github.com/Tianscar/javasound-vorbis
+GNU Lesser General Public License 2.0. https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html
+The Vorbis encoder is also under the Xiph.Org BSD licence. https://www.xiph.org/licenses/bsd/
+The jar is shipped beside the app, unmodified, so it can be replaced.
