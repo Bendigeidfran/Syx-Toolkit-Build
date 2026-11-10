@@ -1,6 +1,6 @@
 # Songs of Syx Modding Toolkit
 
-**Alpha v1.1**
+**Alpha v2.0**
 
 A desktop app for making Songs of Syx mods. It reads the game you have installed and writes only to your local mods folder, never to the game itself or the Steam Workshop.
 
@@ -13,6 +13,9 @@ Start it with `Syx Toolkit.exe`. The first run asks for your Songs of Syx folder
 - See the other asset types, and why each one can't be created yet.
 - Edit the mod's info.
 - Check the text files the game parses for syntax errors: the files under `assets/init`, `assets/text` and `assets/audio/config`, and `_Info.txt`.
+- Edit a race's portrait and watch it redraw as you type, or when you save a sprite it uses. Roll new faces, try a noble, slave or retired look, change colours from a picker, and step through each piece's frames. Mistakes are flagged on the line where they happen, and the last good portrait stays on screen. It's a simulation that follows the game's rules for colour and lighting, and it doesn't include your other enabled mods.
+- Generate normal maps for your sprite sheets, in the style of the game's own sheets of that type. This covers race sheets with their weapon, skeleton, sleep and infant sheets, as well as animals, resources, debris, crops, deposits, buildings and room sheets. You can view any PNG in the mod at full size, adjust Strength and Sharpness for each section of a sheet with a live preview, and the values are remembered per sheet. Art, grid lines and margins aren't touched, and you're asked before existing normals are replaced.
+- Remove normals you don't want from a sheet, either trimming those outside the art or clearing them all.
 - Convert a mod's WAV, MP3, AIFF or AU files to Ogg. The original is moved out of the mod.
 - Compare two game versions and see what the update means for a mod's compiled jar, then save that as a report.
 - Connect your own AI agent, optionally read-only, so it can do the same work. The toolkit holds no keys and calls no AI service.
